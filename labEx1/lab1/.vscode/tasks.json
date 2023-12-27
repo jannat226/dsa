@@ -1,0 +1,22 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C Code",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-o",
+                "podcast_streaming_app",
+                "main.c",
+                "podcast.c",
+                "&&",
+                "./podcast_streaming_app"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}

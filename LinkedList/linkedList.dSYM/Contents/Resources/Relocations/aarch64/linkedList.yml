@@ -1,0 +1,14 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/Shared/workspace/MCA2/ds/LinkedList/linkedList'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createPodcast, symObjAddr: 0x0, symBinAddr: 0x100003448, symSize: 0xB0 }
+  - { offsetInCU: 0xAA, offset: 0xAA, size: 0x8, addend: 0x0, symName: _createPodcast, symObjAddr: 0x0, symBinAddr: 0x100003448, symSize: 0xB0 }
+  - { offsetInCU: 0x10A, offset: 0x10A, size: 0x8, addend: 0x0, symName: _isDuplicateID, symObjAddr: 0xB0, symBinAddr: 0x1000034F8, symSize: 0x90 }
+  - { offsetInCU: 0x14E, offset: 0x14E, size: 0x8, addend: 0x0, symName: _insertPodcast, symObjAddr: 0x140, symBinAddr: 0x100003588, symSize: 0x1A4 }
+  - { offsetInCU: 0x1E2, offset: 0x1E2, size: 0x8, addend: 0x0, symName: _deletePodcastFromMiddle, symObjAddr: 0x2E4, symBinAddr: 0x10000372C, symSize: 0x134 }
+  - { offsetInCU: 0x230, offset: 0x230, size: 0x8, addend: 0x0, symName: _searchPodcast, symObjAddr: 0x418, symBinAddr: 0x100003860, symSize: 0x78 }
+  - { offsetInCU: 0x274, offset: 0x274, size: 0x8, addend: 0x0, symName: _displayPodcasts, symObjAddr: 0x490, symBinAddr: 0x1000038D8, symSize: 0xB8 }
+  - { offsetInCU: 0x2A6, offset: 0x2A6, size: 0x8, addend: 0x0, symName: _freePodcastList, symObjAddr: 0x548, symBinAddr: 0x100003990, symSize: 0x68 }
+  - { offsetInCU: 0x2E6, offset: 0x2E6, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x5B0, symBinAddr: 0x1000039F8, symSize: 0x280 }
+...

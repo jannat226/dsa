@@ -1,0 +1,13 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/Shared/workspace/MCA2/ds/lab3Stack/lab4'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100003570, symSize: 0x78 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _queue, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xD8, offset: 0xD8, size: 0x8, addend: 0x0, symName: _createNode, symObjAddr: 0x0, symBinAddr: 0x100003570, symSize: 0x78 }
+  - { offsetInCU: 0x11C, offset: 0x11C, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x78, symBinAddr: 0x1000035E8, symSize: 0x314 }
+  - { offsetInCU: 0x198, offset: 0x198, size: 0x8, addend: 0x0, symName: _enqueue, symObjAddr: 0x39C, symBinAddr: 0x10000390C, symSize: 0xEC }
+  - { offsetInCU: 0x1CA, offset: 0x1CA, size: 0x8, addend: 0x0, symName: _enqueuePriority, symObjAddr: 0x488, symBinAddr: 0x1000039F8, symSize: 0x158 }
+  - { offsetInCU: 0x226, offset: 0x226, size: 0x8, addend: 0x0, symName: _dequeue, symObjAddr: 0x5E0, symBinAddr: 0x100003B50, symSize: 0xD0 }
+  - { offsetInCU: 0x258, offset: 0x258, size: 0x8, addend: 0x0, symName: _display, symObjAddr: 0x6B0, symBinAddr: 0x100003C20, symSize: 0xC0 }
+...
